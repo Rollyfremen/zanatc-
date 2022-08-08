@@ -1,7 +1,10 @@
-﻿//Console.Clear();
-//Console.Write ("Введите  число ");
-//int a = Convert.ToInt32(Console.ReadLine());
-//Console.Write("Введите 2 число ");
-//int b = Convert.ToInt32(Console.ReadLine());
-//int с = Convert.ToInt32(Math.Max(a , b));
-//Console.WriteLine("Максимальное число  "+ с);
+﻿Console.Clear();
+Console.Write ("Введите  число ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите 2 число ");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите 3 число ");
+int d = Convert.ToInt32(Console.ReadLine());
+int с = Convert.ToInt32(Math.Max(a , b));
+int g = Convert.ToInt32(Math.Max(Math.Max(a , b), d));
+Console.WriteLine("Максимальное число  "+ g);
